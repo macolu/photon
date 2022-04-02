@@ -180,6 +180,24 @@ Or, just by they key
 http://localhost:2322/api?q=berlin&osm_tag=tourism
 ```
 
+#### Filter results by object type
+
+List of available types:
+
+- house
+- street
+- locality
+- district
+- city
+- county
+- state
+- country
+
+```
+http://localhost:2322/api?q=berlin&object_type=city&object_type=locality
+```
+
+
 #### Results as GeoJSON
 ```json
 {
